@@ -92,6 +92,12 @@
           "buildTarget": "shop:build:production"
         }
       }
+    },
+    "make-types": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "make-types:shop"
+      }
     }
   },
   "tags": []

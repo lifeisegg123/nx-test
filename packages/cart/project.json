@@ -92,6 +92,12 @@
           "buildTarget": "cart:build:production"
         }
       }
+    },
+    "make-types": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "make-types:cart"
+      }
     }
   },
   "tags": []

@@ -1,7 +1,7 @@
 module.exports = {
   name: 'cart',
   exposes: {
-    './Module': './src/remote-entry.ts',
-    './Test': './src/components/Test.tsx',
+    './Module': './src/remote-entry',
+    './Test': './src/components/Test',
   },
 };
